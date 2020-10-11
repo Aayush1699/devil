@@ -1,0 +1,792 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	
+}
+header{
+height:100vh;
+background-size: cover;
+background-position: center;
+}
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top: 2.5%;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none; 
+	color: White;
+	padding: 6px 20px;
+	border: 1px solid;
+	transition: 0.4s ease;
+	background-color: black;
+}
+ul li a:hover{
+background-color: green;
+}
+.logo img{
+	float: left;
+	width: 84px;
+	height: auto;
+}
+.main{
+	max-width: 1450px;
+	margin: 0;
+}
+ body{
+	 background-size:2800px 76px;
+	background-repeat: no-repeat;	
+	margin: 0 auto;
+	background-color: Grey;
+}
+.Bhuri_Singh_Museum {
+	position: absolute;
+	top: 28%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+
+}
+.slider {
+	
+	overflow: hidden;
+	height: 50%;
+	padding: 10%;
+	left: 50%;
+	top: 50%;
+	transform: translate(25%,20%);	
+}
+.slider figure div{
+	float: left;
+	width: 20%;
+}
+.slider figure img {
+width: 100%;
+	float: left;
+}
+.slider figure {
+
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left:0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.place {
+	position: absolute;
+	top: 18%;
+	color: white;
+	background-color: black;
+	font-size: 40;
+left: 30%;
+}
+.Singh_Museum{
+	position: absolute;
+	top: 97%;
+	color: white;
+	font-size: 21px;
+}
+.about_bhuri {
+	position: absolute;
+	top: 97%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.Museum{
+	position: absolute;
+	top: 111%;
+	color: white;
+	font-size: 28;
+	background-color: black;
+}
+.Singh {
+		position: absolute;
+	top: 116%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.Bhuri_map{
+	position: absolute;
+	top: 124%;
+	color: white;
+	font-size: 28;
+	background-color: black;
+}
+.Image1 {
+	position: absolute;
+		top: 134%; 
+}
+
+.Dalhoi {
+		position: absolute;
+	top: 195%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.slider1 {
+	
+	overflow: hidden;
+		position:absolute;
+
+height: 40%;
+padding:30%;
+ transform: translate(33%,32%);	
+}
+.slider1 figure div{
+	float: left;
+	width: 20%;
+}
+.slider1 figure img {
+width: 100%;
+	float: left;
+}
+.slider1 figure {
+
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+
+.About_Dalhousie {
+position: absolute;
+	top: 266%;
+	color: white;
+	font-size: 19px;
+}
+.Dal {
+position: absolute;
+	top: 266%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.housie {
+	position: absolute;
+	top: 278%;
+	color: white;
+	font-size: 28;
+	background-color: black;
+}
+.sie{
+		position: absolute;
+	top: 283%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.Map2 {
+	position: absolute;
+	top: 287%;
+	color: white;
+	font-size: 28;
+	background-color: black;
+}
+.Image2 {
+	position: absolute;
+		top: 297%; 
+}
+
+.Bhar_Mour {
+		position: absolute;
+	top: 358%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+
+.slider2 {
+	overflow: hidden;
+		position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,132%);	
+}
+.slider2 figure div{
+	float: left;
+	width: 20%;
+}
+.slider2 figure img {
+width: 100%;
+	float: left;
+}
+.slider2 figure {
+
+	position:absolute;
+
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.about1 {
+	position: absolute;
+	top: 430%;
+	color: white;
+	font-size: 19px;
+}
+.Mour {
+		position: absolute;
+	top: 430%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 21px;
+font-style: italic;
+}
+.al{
+			position: absolute;
+	top: 442%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Bhar {
+position: absolute;
+	top: 447%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;	
+}
+.Map3 {
+		position: absolute;
+	top: 454%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Image3 {
+	position: absolute;
+		top: 464%;
+}
+
+.Khajjiar {
+			position: absolute;
+	top: 525%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.slider3 {
+	overflow: hidden;
+		position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,233%);	
+}
+.slider3 figure div{
+	float: left;
+	width: 20%;
+}
+.slider3 figure img {
+width: 100%;
+	float: left;
+}
+.slider3 figure {
+
+	position:absolute;
+
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.About_Khajjiar {
+position: absolute;
+	top: 597%;
+	color: white;
+	font-size: 20px;
+}
+	.Khaj {
+	position: absolute;
+	top: 597%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+	}
+	.Jiar {
+			position: absolute;
+	top: 611%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+	}
+	.reach {
+	position: absolute;
+	top: 616%;
+color: white;
+font-family: cambria;
+font-size: 21px;
+font-style: italic;
+	}
+	.Map4 {
+				position: absolute;
+	top: 624%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+	}
+	.Image4 {
+	position: absolute;
+		top: 634%;
+}
+.Kalatop_Wildlife_Sanctuary {
+		position: absolute;
+	top: 695%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+	}
+	.slider4 {
+	overflow: hidden;
+		position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,337%);	
+}
+.slider4 figure div{
+	float: left;
+	width: 20%;
+}
+.slider4 figure img {
+width: 100%;
+	float: left;
+}
+.slider4 figure {
+
+	position:absolute;
+
+	width: 500%;
+	margin: 0px;
+	left: 20%;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.About4 {
+	position: absolute;
+	top: 768%;
+	color: white;
+	font-size: 16px;
+}
+.Kalatop {
+			position: absolute;
+	top: 768%;
+	left: 25%;
+color: white;
+font-family: cambria;
+font-size: 23px;
+font-style: italic;
+}
+.how {
+			position: absolute;
+	top: 784%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Reach1 {
+	position: absolute;
+	top: 789%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.Map5 {
+	position: absolute;
+	top: 797%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Image5 {
+position: absolute;
+		top: 807%;
+}
+.Manimahesh {
+position: absolute;
+	top: 868%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+	}
+.slider5 {
+	overflow: hidden;
+		position:absolute;
+
+height: 40%;
+padding:30%;
+ transform: translate(33%,441%);	
+}
+.slider5 figure div{
+	float: left;
+	width: 20%;
+}
+.slider5 figure img {
+width: 100%;
+	float: left;
+}
+.slider5 figure {
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left: 20%;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.About_Manimahesh {
+position: absolute;
+	top: 940%;
+	color: white;
+	font-size: 20px;
+}
+.Manima {
+		position: absolute;
+	top: 940%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.how2 {
+				position: absolute;
+	top: 953%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Reach2 {
+			position: absolute;
+	top: 958%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.Map6 {
+		position: absolute;
+	top: 968%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+	.Image6 {
+	position: absolute;
+		top: 978%;
+}

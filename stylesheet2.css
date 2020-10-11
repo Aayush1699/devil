@@ -1,0 +1,1758 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	
+}
+header{
+height:100vh;
+background-size: cover;
+background-position: center;
+}
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top: 2.5%;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none; 
+	color: White;
+	padding: 6px 20px;
+	border: 1px solid;
+	transition: 0.4s ease;
+	background-color: black;
+}
+ul li a:hover{
+background-color: green;
+}
+.logo img{
+	float: left;
+	width: 84px;
+	height: auto;
+}
+.main{
+	max-width: 1450px;
+	margin: 0;
+}
+ body{
+	 background-size:2800px 76px;
+	background-repeat: no-repeat;	
+	margin: 0 auto;
+	background-color: Grey;
+}
+.Kareri {
+	position: absolute;
+	top: 28%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+
+}
+.slider {
+	
+	overflow: hidden;
+	height: 50%;
+	padding: 10%;
+	left: 50%;
+	top: 50%;
+	transform: translate(25%,20%);	
+}
+.slider figure div{
+	float: left;
+	width: 20%;
+}
+.slider figure img {
+width: 100%;
+	float: left;
+}
+.slider figure {
+
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left:0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.place {
+position: absolute;
+	top: 18%;
+	color: white;
+	background-color: black;
+	font-size: 40;
+left: 30%;
+}
+.lake{
+	position: absolute;
+	top: 97%;
+	color: white;
+	font-size: 21px;
+}
+.about_kareri {
+	position: absolute;
+	top: 97%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.k{
+	position: absolute;
+	top: 110%;
+	color: white;
+	font-size: 28;
+	background-color: black;
+}
+.reri {
+		position: absolute;
+	top: 115%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.Kareri_map{
+	position: absolute;
+	top: 129%;
+	color: white;
+	font-size: 28;
+	background-color: black;
+}
+.Image1 {
+	position: absolute;
+		top: 139%; 
+}
+
+.Bhagsu {
+		position: absolute;
+	top: 200%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.slider1 {
+	
+	overflow: hidden;
+		position:absolute;
+
+height: 40%;
+padding:30%;
+ transform: translate(33%,35%);	
+}
+.slider1 figure div{
+	float: left;
+	width: 20%;
+}
+.slider1 figure img {
+width: 100%;
+	float: left;
+}
+.slider1 figure {
+
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+
+.About_Bhagsu {
+position: absolute;
+	top: 270%;
+	color: white;
+	font-size: 19px;
+}
+.fall {
+position: absolute;
+	top: 270%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.waterfall {
+	position: absolute;
+	top: 288%;
+	color: white;
+	font-size: 28;
+	background-color: black;
+}
+.all{
+		position: absolute;
+	top: 293%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.Map2 {
+	position: absolute;
+	top: 304%;
+	color: white;
+	font-size: 28;
+	background-color: black;
+}
+.Image2 {
+	position: absolute;
+		top: 314%; 
+}
+
+.Dal-lake {
+		position: absolute;
+	top: 375%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+
+.slider2 {
+	overflow: hidden;
+		position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,140%);	
+}
+.slider2 figure div{
+	float: left;
+	width: 20%;
+}
+.slider2 figure img {
+width: 100%;
+	float: left;
+}
+.slider2 figure {
+
+	position:absolute;
+
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.about1 {
+	position: absolute;
+	top: 444%;
+	color: white;
+	font-size: 21px;
+}
+.Dal {
+		position: absolute;
+	top: 444%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.al{
+			position: absolute;
+	top: 457%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.dallake {
+position: absolute;
+	top: 462%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;	
+}
+.Map3 {
+		position: absolute;
+	top: 469%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Image3 {
+	position: absolute;
+		top: 479%;
+}
+
+.St_john {
+			position: absolute;
+	top: 541%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.slider3 {
+	overflow: hidden;
+		position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,242%);	
+}
+.slider3 figure div{
+	float: left;
+	width: 20%;
+}
+.slider3 figure img {
+width: 100%;
+	float: left;
+}
+.slider3 figure {
+
+	position:absolute;
+
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.About_john {
+position: absolute;
+	top: 612%;
+	color: white;
+	font-size: 21px;
+}
+	.wilderness {
+	position: absolute;
+	top: 612%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+	}
+	.church {
+			position: absolute;
+	top: 632%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+	}
+	.reach {
+	position: absolute;
+	top: 637%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+	}
+	.Map4 {
+				position: absolute;
+	top: 644%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+	}
+	.Image4 {
+	position: absolute;
+		top: 654%;
+}
+.Triund {
+		position: absolute;
+	top: 716%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+	}
+	.slider4 {
+	overflow: hidden;
+		position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,348%);	
+}
+.slider4 figure div{
+	float: left;
+	width: 20%;
+}
+.slider4 figure img {
+width: 100%;
+	float: left;
+}
+.slider4 figure {
+
+	position:absolute;
+
+	width: 500%;
+	margin: 0px;
+	left: 20%;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.About4 {
+	position: absolute;
+	top: 786%;
+	color: white;
+	font-size: 21px;
+}
+.Tr {
+			position: absolute;
+	top: 786%;
+	left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.how {
+			position: absolute;
+	top: 799%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Reach1 {
+	position: absolute;
+	top: 804%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.Map5 {
+	position: absolute;
+	top: 814%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Image5 {
+position: absolute;
+		top: 824%;
+}
+.Indrahar_pass {
+position: absolute;
+	top: 986%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+	}
+.slider5 {
+	overflow: hidden;
+		position:absolute;
+
+height: 40%;
+padding:30%;
+ transform: translate(33%,511%);	
+}
+.slider5 figure div{
+	float: left;
+	width: 20%;
+}
+.slider5 figure img {
+width: 100%;
+	float: left;
+}
+.slider5 figure {
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left: 20%;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.About_Indrahar {
+position: absolute;
+	top: 1059%;
+	color: white;
+	font-size: 21px;
+}
+.Indrahar {
+		position: absolute;
+	top: 1059%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.how2 {
+				position: absolute;
+	top: 1075%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Reach2 {
+			position: absolute;
+	top: 1081%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.Map6 {
+		position: absolute;
+	top: 1107%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+	.Image6 {
+	position: absolute;
+		top: 1117%;
+}
+
+.Namgyal_Monastery {
+				position: absolute;
+	top: 1187%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.slider6 {
+ overflow: hidden;
+position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,633%);	
+}
+.slider6 figure div{
+	float: left;
+	width: 20%;
+}
+.slider6 figure img {
+width: 100%;
+	float: left;
+}
+.slider6 figure {
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.About_Namgyal {
+position: absolute;
+	top: 1260%;
+	color: white;
+	font-size: 16px;
+}
+.Namgyal {
+		position: absolute;
+	top: 1260%;
+	left: 25%;
+color: white;
+font-family: cambria;
+font-size: 21px;
+font-style: italic;
+}
+.how3 {
+			position: absolute;
+	top: 1278%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Reach3 {
+	position: absolute;
+	top: 1284%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.Map7 {
+	position: absolute;
+	top: 1292%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Image7 {
+position: absolute;
+		top: 1302%;
+}
+
+.Naddi_View_Point {
+			position: absolute;
+	top: 1372%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.slider7 {
+ overflow: hidden;
+position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,745%);	
+}
+.slider7 figure div{
+	float: left;
+	width: 20%;
+}
+.slider7 figure img {
+width: 100%;
+	float: left;
+}
+.slider7 figure {
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+
+.About_Naddi {
+position: absolute;
+	top: 1445%;
+	color: white;
+	font-size: 21px;
+}
+.Naddi {
+			position: absolute;
+	top: 1445%;
+	left: 25%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.how4 {
+			position: absolute;
+	top: 1460%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Reach4 {
+		position: absolute;
+	top: 1466%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.Map8 {
+	position: absolute;
+	top: 1475%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Image8 {
+	position: absolute;
+	top: 1485%;
+}
+
+.Sobha_Singh_Art_Gallery {
+		position: absolute;
+	top: 1555%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.slider8 {
+ overflow: hidden;
+position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,858%);	
+}
+.slider8 figure div{
+	float: left;
+	width: 20%;
+}
+.slider8 figure img {
+width: 100%;
+	float: left;
+}
+.slider8 figure {
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.About_Sobha {
+	position: absolute;
+	top: 1630%;
+	color: white;
+	font-size: 19px;
+}
+.Sobha {
+		position: absolute;
+	top: 1630%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.How5 {
+	position: absolute;
+	top: 1645%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Reach5 {
+				position: absolute;
+	top: 1652%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.Map9 {
+	position: absolute;
+	top: 1660%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Image9 {
+	position: absolute;
+	top: 1670%;
+} 
+
+
+.Kangra_Fort {
+		position: absolute;
+	top: 1740%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.slider9 {
+ overflow: hidden;
+position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,970%);	
+}
+.slider9 figure div{
+	float: left;
+	width: 20%;
+}
+.slider9 figure img {
+width: 100%;
+	float: left;
+}
+.slider9 figure {
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.About_Fort {
+	position: absolute;
+	top: 1815%;
+	color: white;
+	font-size: 21px;
+}
+.Fort {
+		position: absolute;
+	top: 1815%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.How6 {
+	position: absolute;
+	top: 1832%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Reach6 {
+				position: absolute;
+	top: 1838%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.Map10 {
+	position: absolute;
+	top: 1847%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Image10 {
+	position: absolute;
+	top: 1857%;
+} 
+.Birni {
+		position: absolute;
+	top: 1927%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.slider10 {
+ overflow: hidden;
+position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,1082%);	
+}
+.slider10 figure div{
+	float: left;
+	width: 20%;
+}
+.slider10 figure img {
+width: 100%;
+	float: left;
+}
+.slider10 figure {
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.About_Birni {
+	position: absolute;
+	top: 2000%;
+	color: white;
+	font-size: 19px;
+}
+.Birn {
+		position: absolute;
+	top: 2000%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.How7 {
+	position: absolute;
+	top: 2015%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Reach7 {
+				position: absolute;
+	top: 2021%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.Map11 {
+	position: absolute;
+	top: 2030%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Image11 {
+	position: absolute;
+	top: 2040%;
+} 
+.Bir_Billing {
+		position: absolute;
+	top: 2110%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.slider11 {
+ overflow: hidden;
+position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,1194%);	
+}
+.slider11 figure div{
+	float: left;
+	width: 20%;
+}
+.slider11 figure img {
+width: 100%;
+	float: left;
+}
+.slider11 figure {
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.Billing {
+	position: absolute;
+	top: 2185%;
+	color: white;
+	font-size: 21px;
+}
+.About_Bir {
+		position: absolute;
+	top: 2185%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.How8 {
+	position: absolute;
+	top: 2201%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Reach8 {
+				position: absolute;
+	top: 2207%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.Map12 {
+	position: absolute;
+	top: 2215%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Image12 {
+	position: absolute;
+	top: 2225%;
+} 
+.Baijnath_Temple {
+		position: absolute;
+	top: 2295%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.slider12 {
+ overflow: hidden;
+position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,1305%);	
+}
+.slider12 figure div{
+	float: left;
+	width: 20%;
+}
+.slider12 figure img {
+width: 100%;
+	float: left;
+}
+.slider12 figure {
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.Baijnath {
+	position: absolute;
+	top: 2367%;
+	color: white;
+	font-size: 19px;
+}
+.About_Baijnath {
+		position: absolute;
+	top: 2367%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.How9 {
+	position: absolute;
+	top: 2389%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Reach9 {
+				position: absolute;
+	top: 2395%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.Map13 {
+	position: absolute;
+	top: 2403%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Image13 {
+	position: absolute;
+	top: 2413%;
+} 
+.Masroor_Temple {
+		position: absolute;
+	top: 2483%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.slider13 {
+ overflow: hidden;
+position:absolute;
+height: 40%;
+padding:30%;
+ transform: translate(33%,1420%);	
+}
+.slider13 figure div{
+	float: left;
+	width: 20%;
+}
+.slider13 figure img {
+width: 100%;
+	float: left;
+}
+.slider13 figure {
+	position:absolute;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s tourism infinite linear;
+}
+@keyframes tourism {
+	0%{
+		left: 0%;
+	}
+	10%{
+				left: 0%;
+	}
+	12%{
+				left: -100%;
+	}
+	22%{
+				left: -100%;
+	}
+	24%{
+				left: -200%;
+	}
+	34%{
+				left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+				left: -300%;
+	}
+	48%{
+				left: -400%;
+	}
+	58%{
+				left: -400%;
+	}
+	60%{
+				left: -300%;
+	}
+	70%{
+				left: -300%;
+	}
+	82%{
+				left: -200%;
+	}
+	84%{
+				left: -100%;
+	}
+	94%{
+				left: -100%;
+	}
+	96%{
+				left: 0%;
+	}
+}
+.Masroor {
+	position: absolute;
+	top: 2556%;
+	color: white;
+	font-size: 19px;
+}
+.About_Masroor {
+		position: absolute;
+	top: 2556%;
+left: 25%;
+color: white;
+font-family: cambria;
+font-size: 20px;
+font-style: italic;
+}
+.How10 {
+	position: absolute;
+	top: 2580%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Reach10 {
+				position: absolute;
+	top: 2586%;
+color: white;
+font-family: cambria;
+font-size: 19px;
+font-style: italic;
+}
+.Map14 {
+	position: absolute;
+	top: 2595%;
+	color: white;
+	background-color: black;
+	font-size: 28;
+}
+.Image14 {
+	position: absolute;
+	top: 2604%;
+} 
